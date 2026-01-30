@@ -150,7 +150,7 @@ presence.on('UpdateData', async () => {
   const presenceData: any = {
     type: 3,
     largeImageKey: assets.logo,
-    largeImageText: 'CinePulse.cc',
+    largeImageText: 'CinePulse.lol',
     startTimestamp: browsingTimestamp,
   }
 
@@ -217,7 +217,7 @@ presence.on('UpdateData', async () => {
     }
   }
   else {
-    presenceData.details = 'Navigation sur CinePulse.cc'
+    presenceData.details = 'Navigation sur CinePulse.lol'
     presenceData.state = 'Parcours du catalogue'
     delete presenceData.startTimestamp
     delete presenceData.endTimestamp
